@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-blue-100 text-gray-800;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
