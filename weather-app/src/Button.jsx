@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({ onClick, text }) => {
   return (
     <div className="button-container">
-        <button className=" flex justify-center items-center flex-row gap-2  text-bold border-2 border-black rounded-md px-4 py-2">Search</button>
-        <div></div>
+        <button className="border-2 border-white rounded-md px-4 py-2 cursor-pointer hover:bg-blue-200"
+         onClick={onClick}>
+          {text}
+          </button>
     </div>
 
   )
