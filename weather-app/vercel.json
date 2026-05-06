@@ -1,6 +1,0 @@
-{
-  "buildCommand": "node node_modules/vite/bin/vite.js build",
-  "outputDirectory": "weather-app/dist",
-  "framework": "vite",
-  "rootDirectory": "weather-app"
-}
